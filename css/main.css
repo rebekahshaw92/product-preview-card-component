@@ -5141,11 +5141,6 @@ body {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-@media (min-width: 992px) {
-  .card-img-top {
-    border-top-right-radius: 0;
-  }
-}
 
 .img-desktop {
   display: none;
@@ -5153,6 +5148,8 @@ body {
 @media (min-width: 992px) {
   .img-desktop {
     display: block;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
   }
 }
 
