@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+$fontMontserrat: 'Montserrat', sans-serif;
+$fontFraunces: 'Fraunces', serif;
+$darkGrayishBlue: hsl(228, 12%, 48%);
+$veryDarkBlue: hsl(212, 21%, 14%);
+$darkCyan: hsl(158, 36%, 37%);
+
+
+.card-title {
+    margin-bottom: 5%;
+    font-family: $fontMontserrat;
+    letter-spacing: 0.5rem;
+    font-size: 16px;
+    color: $darkGrayishBlue;
+    @include media-breakpoint-up(lg){
+        font-size: 14px;
+    }
+}
+
+
+
+.mainTitle {
+    margin-bottom: 5%;
+    font-family: $fontFraunces;
+    color: $veryDarkBlue;
+    font-size: 34px;
+    @include media-breakpoint-up(lg){
+        font-size: 36px;
+    }
+}
+
+.card-text {
+    margin-bottom: 10%;
+    font-size: 14px;
+    line-height: 2rem;
+    font-family: $fontMontserrat;
+    color: $darkGrayishBlue;
+    @include media-breakpoint-up(lg){
+        font-size: 16px;
+        line-height: 1.8rem;
+    }
+}
+
+.price {
+    //margin-left: 6%;
+    margin-top: 10%;
+    font-family: $fontFraunces;
+    color: $darkCyan;
+    font-size: 40px;
+}
+
+.priceNot {
+    //margin-left: 5%;
+    font-family: $fontFraunces;
+    margin-top: 17%;
+    font-size: 18px;
+    color: $darkGrayishBlue;
+    @include media-breakpoint-up(lg){
+        margin-top: 22%;
+    }
+}
+
+.cart {
+    font-family: $fontMontserrat;
+    font-weight: 700;
+}
